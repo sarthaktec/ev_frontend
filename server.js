@@ -1,11 +1,12 @@
 const express = require('express');
+const bodyParser = require('body-parser');  //서버모듈을위한 
 const app = express();
-const path = require('path');
-app.use(express.static(path.join(__dirname, 'build')));
-app.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname, 'build', 'index.html'))
+const port = process.env.PORT || 5000;  
+ 
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended:true})); 
+
+app.get('/api/hello',(req,res) =>{  
+    res.send({message : 'hello express!'});  
 });
-app.listen(3000, () => {
-   console.log("server is r  unnig on port 3000");
-   console.log("Open your browser and hit url 'localhost:3000'");
-});
+app.listen(port,()=>console.log(`listening on port ${port}`))
