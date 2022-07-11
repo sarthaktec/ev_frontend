@@ -1,0 +1,33 @@
+.bus-con{
+    background:#82af13;
+    padding: 50px 30px;
+    border-radius: 8px;
+}
+
+h2.\.bus-con-head , h4.\.bus-con-head, h6.\.bus-con-head {
+    color: #fff;
+}
+
+.th-table-bus{
+    background: #82af13;
+    color: #fff;
+}
+
+.container.filter-bus {
+    margin-bottom: -36px;
+}
+
+
+.attrilink {
+    margin-top: 20px;
+    padding: 10px 40px;
+    border: none;
+    background: #82af13;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.attrilink a {
+    color: #fff;
+    text-decoration: none;
+}

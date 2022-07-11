@@ -1,0 +1,20 @@
+body{
+    background-color: #f4f4f4!important;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color: #82af13;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.btn-logout{
+    background-color: #fff;
+    color: #82af13;
+}
+

@@ -1,0 +1,44 @@
+
+.img-center {
+    display: flex;
+    justify-content: center;
+}
+
+.dashimg{
+    height: fit-content;
+    margin: auto;
+}
+
+.card{
+    margin-top: 20px;
+}
+
+.but-emp {
+    margin-top: 20px;
+    padding: 10px 40px;
+    border: none;
+    background: #82af13;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.card-box1{
+    box-shadow: 0 1px 1px 1px rgba(9,9,9,.25)!important;
+    border-bottom: 0 solid #82af13!important;
+    border-top: 3px solid #82af13!important;
+    background: #fff;
+    padding: 100px 50px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pat-bt{
+    margin-top: 20px;
+    padding: 10px 40px;
+    border: none;
+    background: #82af13;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 4px 7px 10px #8888885e;
+}

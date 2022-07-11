@@ -1,0 +1,53 @@
+body {
+  background-color: #f4f4f4!important;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-attachment: fixed;
+}
+
+.auth-wrapper {
+  max-width: 500px !important;
+  margin:300px auto;
+}
+
+.card-body{
+  box-shadow: 0 1px 1px 1px rgba(9,9,9,.25)!important;
+    border-bottom: 0 solid #82af13!important;
+    border-top: 3px solid #82af13!important;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.logo {
+  display: block;
+  margin: 20px auto;
+}
+
+.btn-login{
+  max-width: 150px;
+    padding: 8px 0!important;
+    min-width: 100px;
+
+}
+
+button.btn-login {
+  position: inherit;
+  left: -160px;
+  border: none;
+  background: #82af13;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.powered_by {
+  text-align: center;
+  font-size: 10px;
+  margin-top: -290px;
+  margin-left: 200px;
+  color: #bfbfbf;
+}
+
+.powered_by a{
+  color: #bfbfbf;
+}
